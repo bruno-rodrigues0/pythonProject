@@ -6,5 +6,6 @@ print(' Tipo primitivo: {}\n'
       ' Alfanumérico: {}\n'
       ' Upper case: {}\n'
       ' Lower case: {}\n'
-      ' Apenas espaços: {}'
-      .format(type(x), x.isnumeric(), x.isalpha(), x.isalnum(), x.isupper(), x.islower(), x.isspace()))
+      ' Apenas espaços: {}\n'
+      ' Capitalizada: {}'
+      .format(type(x), x.isnumeric(), x.isalpha(), x.isalnum(), x.isupper(), x.islower(), x.isspace(), x.istitle()))
